@@ -69,15 +69,6 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		6014810423B4CAFA0093A190 /* Data Model */ = {
-			isa = PBXGroup;
-			children = (
-				60AC189423B4C4F7009BCA40 /* User.swift */,
-				60AC189623B4C50D009BCA40 /* Address.swift */,
-			);
-			path = "Data Model";
-			sourceTree = "<group>";
-		};
 		6014810623B4CB570093A190 /* API */ = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +80,8 @@
 		60A877B123B753D9007CA5F1 /* Users */ = {
 			isa = PBXGroup;
 			children = (
+				60AC189E23B4C8E8009BCA40 /* Interactor */,
+				60A877B223B753FA007CA5F1 /* Presenter */,
 				60AC188523B4AC08009BCA40 /* UsersVC */,
 				60AC189223B4B07B009BCA40 /* UserCell */,
 			);
@@ -101,6 +94,15 @@
 				60A877B323B7543B007CA5F1 /* UsersVCPresenter.swift */,
 			);
 			path = Presenter;
+			sourceTree = "<group>";
+		};
+		60A8BC7423B8BF1A00BE39F8 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				60AC189423B4C4F7009BCA40 /* User.swift */,
+				60AC189623B4C50D009BCA40 /* Address.swift */,
+			);
+			path = "Data Model";
 			sourceTree = "<group>";
 		};
 		60AC186423B4ABCF009BCA40 = {
@@ -138,8 +140,6 @@
 		60AC188423B4ABF8009BCA40 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				60AC189E23B4C8E8009BCA40 /* Interactor */,
-				60A877B223B753FA007CA5F1 /* Presenter */,
 				60A877B123B753D9007CA5F1 /* Users */,
 			);
 			path = Scenes;
@@ -193,7 +193,7 @@
 		60AC189323B4C4E3009BCA40 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				6014810423B4CAFA0093A190 /* Data Model */,
+				60A8BC7423B8BF1A00BE39F8 /* Data Model */,
 			);
 			path = Model;
 			sourceTree = "<group>";
